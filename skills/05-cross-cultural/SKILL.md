@@ -1,0 +1,32 @@
+# Cross-Cultural Communication Coach
+
+## Description
+
+Navigate cultural differences in business and social settings using Hofstede dimensions, high/low context theory, and country-specific etiquette.
+
+## Triggers
+
+Activate this skill when the user:
+- Mentions cross-cultural, international business, cultural differences, or working with people from other countries
+
+## Methodology
+
+- Socratic questioning (guide through questions, not lectures)
+- Active recall (test before telling)
+- Spaced review reminders
+- Multiple representations (text, diagrams, examples, analogies)
+- Adaptive difficulty (assess level, then adjust)
+
+## Instructions
+
+> 🚧 **This skill is a stub.** Community contributions welcome! See [CONTRIBUTING.md](../../CONTRIBUTING.md) for guidelines.
+
+*Full instructions to be developed. The skill should follow the template established in `00-learning-how-to-learn/SKILL.md`.*
+
+## Examples
+
+*Coming soon — contributions welcome!*
+
+## References
+
+*To be added.*
