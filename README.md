@@ -38,17 +38,17 @@ These are not hypothetical questions. They are **the** questions of our time.
 
 Here's what we know from the latest research:
 
-> **AI tutoring outperforms in-class active learning.** A 2025 randomized controlled trial published in *Nature Scientific Reports* found that students using an AI tutor learned significantly more in less time, with higher engagement and motivation, compared to traditional active learning classrooms.
+> **AI tutoring dramatically improves learning — but only with pedagogical guardrails.** A large-scale randomized controlled trial published in *PNAS* found that GPT-4-based tutoring improved high school math performance by 48–127%. However, without structured pedagogical design, students became dependent on AI and showed reduced skill acquisition. Carefully designed guardrails — like providing hints instead of answers — restored learning gains.
 >
-> — [Kestin et al. (2025), *Scientific Reports*](https://www.nature.com/articles/s41598-025-97652-6)
+> — [Bastani et al. (2025), *PNAS*, 122(26)](https://www.pnas.org/doi/10.1073/pnas.2422633122)
 
 > **Spaced repetition and active recall are the most effective learning techniques known to science.** A meta-analysis of 242 studies with 169,000+ participants confirmed that practice testing and distributed practice outperform all other methods — including re-reading, highlighting, and summarizing.
 >
 > — [Dunlosky et al. (2013), *Psychological Science in the Public Interest*](https://journals.sagepub.com/doi/abs/10.1177/1529100612453266); [Donoghue & Hattie (2021)](https://doi.org/10.3389/feduc.2021.657895)
 
-> **AI-powered intelligent tutoring systems show positive effects on K-12 learning**, with significant improvements in problem-solving, critical thinking, and logical reasoning abilities across 28 studies with 4,597 students.
+> **Algorithmically optimized spaced repetition dramatically enhances human learning.** A study published in *PNAS* analyzing data from 12 million Duolingo learners demonstrated that computationally optimized review schedules significantly outperform heuristic methods, enabling learners to memorize more material in less time.
 >
-> — [Systematic review, *npj Science of Learning* (2025)](https://www.nature.com/articles/s41539-025-00320-7)
+> — [Tabibian et al. (2019), *PNAS*, 116(10), 3988–3993](https://www.pnas.org/doi/10.1073/pnas.1815156116)
 
 The science is clear: **AI + cognitive science = the most powerful learning combination in human history.** But there's a gap — AI agents have no built-in pedagogical structure. They know everything but teach nothing.
 
@@ -368,12 +368,12 @@ If Human Skill Tree helps you learn anything, consider:
 
 ## References
 
-1. Kestin, G. et al. (2025). "AI tutoring outperforms in-class active learning." *Scientific Reports*. [Nature](https://www.nature.com/articles/s41598-025-97652-6)
+1. Bastani, H. et al. (2025). "Generative AI without guardrails can harm learning." *PNAS*, 122(26). [Link](https://www.pnas.org/doi/10.1073/pnas.2422633122)
 2. Dunlosky, J. et al. (2013). "Improving Students' Learning With Effective Learning Techniques." *Psychological Science in the Public Interest*, 14(1), 4-58.
 3. Donoghue, G.M. & Hattie, J.A.C. (2021). "A Meta-Analysis of Ten Learning Techniques." *Frontiers in Education*.
 4. Pan, S.C. & Rickard, T.C. (2018). "Transfer of test-enhanced learning." *J. Experimental Psychology: General*, 147(11), 1641-1664.
 5. Brown, P.C., Roediger, H.L., & McDaniel, M.A. (2014). *Make It Stick: The Science of Successful Learning*. Harvard University Press.
-6. npj Science of Learning (2025). "A systematic review of AI-driven intelligent tutoring systems in K-12 education." [Nature](https://www.nature.com/articles/s41539-025-00320-7)
+6. Tabibian, B. et al. (2019). "Enhancing human learning via spaced repetition optimization." *PNAS*, 116(10), 3988–3993. [Link](https://www.pnas.org/doi/10.1073/pnas.1815156116)
 7. Bjork, R.A. & Bjork, E.L. (2011). "Making Things Hard on Yourself, But in a Good Way."
 
 ---
@@ -427,9 +427,9 @@ If Human Skill Tree helps you learn anything, consider:
 
 最新研究告诉我们：
 
-> **AI 辅导效果超过课堂主动学习。** 2025 年发表在 *Nature Scientific Reports* 上的随机对照试验发现：使用 AI 导师的学生在更短时间内学到了更多，参与度和动力也更高。
+> **AI 辅导可大幅提升学习效果——但前提是有教学结构。** 发表在 *PNAS* 上的大规模随机对照试验发现：GPT-4 辅导使高中数学成绩提升 48–127%，但缺乏教学设计时，学生会依赖 AI 而技能习得下降。精心设计的教学引导（如给提示而非答案）可恢复学习效果。
 >
-> — [Kestin et al. (2025)](https://www.nature.com/articles/s41598-025-97652-6)
+> — [Bastani et al. (2025), *PNAS*](https://www.pnas.org/doi/10.1073/pnas.2422633122)
 
 > **间隔重复和主动回忆是科学已知最有效的学习方法。** 一项涵盖 242 项研究、169,000+ 参与者的 Meta 分析证实：练习测试和分散练习的效果超过所有其他方法。
 >
