@@ -25,3 +25,13 @@ build/
 # Environment
 .env
 .env.local
+
+# Promotion materials (local only)
+docs/article-zhihu.docx
+docs/article-zhihu.md
+docs/promotion-xiaohongshu.md
+docs/promotion-xiaohongshu.docx
+docs/email-template.md
+docs/email-template.docx
+docs/promotion-github-ecosystem.md
+docs/build-*.js
