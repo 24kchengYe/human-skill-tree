@@ -9,7 +9,7 @@
 **[English](#the-question) · [中文](#关于这个项目)**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/Skills-30+-brightgreen)](#-skill-tree)
+[![Skills](https://img.shields.io/badge/Skills-31-brightgreen)](#-skill-tree)
 [![Subjects](https://img.shields.io/badge/Subjects-800+-orange)](#-skill-tree)
 [![Standard](https://img.shields.io/badge/Standard-Agent_Skills-blueviolet)](https://github.com/anthropics/skills)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-Compatible-8A2BE2)](#installation)
@@ -61,6 +61,63 @@ The science is clear: **AI + cognitive science = the most powerful learning comb
 A collection of **30+ ready-to-use AI agent skills** that transform ChatGPT, Claude, Gemini, Copilot, DeepSeek, or any compatible AI into a **structured, science-backed learning companion**.
 
 Not a chatbot. Not a course platform. An **upgrade to how AI interacts with humans who want to learn**.
+
+### 💬 See the Difference
+
+<table>
+<tr>
+<th>❌ Without Human Skill Tree</th>
+<th>✅ With Human Skill Tree</th>
+</tr>
+<tr>
+<td>
+
+**You:** Teach me calculus
+
+**AI:** Calculus is a branch of mathematics that studies continuous change. There are two main branches: differential calculus and integral calculus...
+
+*(gives you a Wikipedia-style wall of text)*
+
+</td>
+<td>
+
+**You:** Teach me calculus
+
+**AI:** Before we start, let me understand where you are:
+1. Can you tell me what a **function** is in your own words?
+2. Have you seen the concept of **slope** before?
+3. What's your goal — exam prep, or deep understanding?
+
+*(assesses your level, then builds from YOUR foundation)*
+
+</td>
+</tr>
+<tr>
+<td>
+
+**You:** 饭局怎么表现？
+
+**AI:** 饭局中要注意礼仪，尊重他人，适度饮酒...
+
+*(generic advice)*
+
+</td>
+<td>
+
+**You:** 饭局怎么表现？
+
+**AI:** 先确认几个关键信息：
+1. 你是最年轻的吗？
+2. 体制内还是民企？
+3. 你的直属领导在场吗？
+
+要不要我模拟这个场景，我扮演客户，你来练习？
+
+*(scenario simulation with cultural context)*
+
+</td>
+</tr>
+</table>
 
 | Traditional Learning | Raw AI Chat | 🌳 Human Skill Tree |
 |---|---|---|
