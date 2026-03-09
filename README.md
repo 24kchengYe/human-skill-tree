@@ -382,7 +382,7 @@ If Human Skill Tree helps you learn anything, consider:
 
 ## Changelog
 
-- **v1.2** (2026-03-09): Added Socratic Teaching Mode to core skill; new AI Tutor Persona skill (32 total); all skills now include Progress Tracking & Spaced Review; references upgraded to PNAS
+- **v1.2** (2026-03-09): Added Socratic Teaching Mode to core skill; new AI Tutor Persona skill (32 total); all skills now include Progress Tracking & Spaced Review
 - **v1.1** (2026-03-08): Developed all 28 stub skills to full content; added validation script + CI; created GitHub Discussions, Release v1.0.0, 5 good-first-issues
 - **v1.0** (2026-03-07): Initial release with 31 skills covering K-12 through career development
 
@@ -542,7 +542,7 @@ cp -r human-skill-tree/skills/05-social-intelligence ~/.claude/skills/     # 人
 
 ## 更新日志
 
-- **v1.2** (2026-03-09): 核心技能加入苏格拉底教学模式；新增 AI Tutor Persona 技能（共 32 个）；所有技能加入进度追踪与间隔复习；论文引用升级为 PNAS
+- **v1.2** (2026-03-09): 核心技能加入苏格拉底教学模式；新增 AI Tutor Persona 技能（共 32 个）；所有技能加入进度追踪与间隔复习
 - **v1.1** (2026-03-08): 28 个框架技能全部开发完成；添加验证脚本 + CI；创建 GitHub Discussions、Release v1.0.0、5 个 good-first-issue
 - **v1.0** (2026-03-07): 首次发布，31 个技能覆盖 K-12 到职业发展
 
