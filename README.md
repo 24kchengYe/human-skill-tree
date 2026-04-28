@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/24kchengye-human-skill-tree-badge.png)](https://mseep.ai/app/24kchengye-human-skill-tree)
+
 <div align="center">
 
 
