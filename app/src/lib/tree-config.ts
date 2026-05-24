@@ -36,12 +36,13 @@ const phase1 = centerRow(
   Y_GAP
 );
 
-// Phase 2: University (8 nodes)
+// Phase 2: University (9 nodes)
 const phase2 = centerRow(
   [
     "02-ai-ml-learning",
     "02-arts-design-tutor",
     "02-business-economics-tutor",
+    "02-creative-writing",
     "02-humanities-social-tutor",
     "02-medical-health-tutor",
     "02-music-arts",
@@ -127,10 +128,12 @@ export const initialEdges: Edge[] = [
   { id: "e-sci-med", source: "01-k12-sciences", target: "02-medical-health-tutor", style: { stroke: "#60a5fa", strokeWidth: 1.5, opacity: 0.4 } },
   { id: "e-math-biz", source: "01-k12-mathematics", target: "02-business-economics-tutor", style: { stroke: "#60a5fa", strokeWidth: 1.5, opacity: 0.4 } },
   { id: "e-math-aiml", source: "01-k12-mathematics", target: "02-ai-ml-learning", style: { stroke: "#60a5fa", strokeWidth: 1.5, opacity: 0.4 } },
+  { id: "e-hum-creative-writing", source: "02-humanities-social-tutor", target: "02-creative-writing", style: { stroke: "#60a5fa", strokeWidth: 1.5, opacity: 0.4 } },
   // Phase 2 → Phase 3
   { id: "e-stem-research", source: "02-stem-tutor", target: "03-research-methodology", style: { stroke: "#34d399", strokeWidth: 1.5, opacity: 0.4 } },
   { id: "e-stem-data", source: "02-stem-tutor", target: "03-data-analysis-stats", style: { stroke: "#34d399", strokeWidth: 1.5, opacity: 0.4 } },
   { id: "e-aiml-data", source: "02-ai-ml-learning", target: "03-data-analysis-stats", style: { stroke: "#34d399", strokeWidth: 1.5, opacity: 0.4 } },
+  { id: "e-creative-writing-academic", source: "02-creative-writing", target: "03-academic-writing", style: { stroke: "#34d399", strokeWidth: 1.5, opacity: 0.4 } },
   { id: "e-hum-writing", source: "02-humanities-social-tutor", target: "03-academic-writing", style: { stroke: "#34d399", strokeWidth: 1.5, opacity: 0.4 } },
   { id: "e-hum-lit", source: "02-humanities-social-tutor", target: "03-literature-review", style: { stroke: "#34d399", strokeWidth: 1.5, opacity: 0.4 } },
   // Phase 3 → Phase 4
