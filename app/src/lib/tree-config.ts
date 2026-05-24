@@ -93,6 +93,7 @@ const phase6 = centerRow(
     "06-creativity-innovation",
     "06-critical-thinking",
     "06-financial-literacy",
+    "06-mental-health-resilience",
     "06-health-wellness",
   ],
   Y_GAP * 6
@@ -145,7 +146,8 @@ export const initialEdges: Edge[] = [
   { id: "e-interview-social", source: "04-interview-prep", target: "05-social-intelligence", style: { stroke: "#f97316", strokeWidth: 1.5, opacity: 0.4 } },
   // Phase 5 → Phase 6
   { id: "e-comm-critical", source: "05-communication-skills", target: "06-critical-thinking", style: { stroke: "#ec4899", strokeWidth: 1.5, opacity: 0.4 } },
-  { id: "e-ei-health", source: "05-emotional-intelligence", target: "06-health-wellness", style: { stroke: "#ec4899", strokeWidth: 1.5, opacity: 0.4 } },
+  { id: "e-ei-mental-health", source: "05-emotional-intelligence", target: "06-mental-health-resilience", style: { stroke: "#ec4899", strokeWidth: 1.5, opacity: 0.4 } },
+  { id: "e-mental-health-health", source: "06-mental-health-resilience", target: "06-health-wellness", style: { stroke: "#ec4899", strokeWidth: 1.5, opacity: 0.4 } },
   { id: "e-nego-finance", source: "05-negotiation-persuasion", target: "06-financial-literacy", style: { stroke: "#ec4899", strokeWidth: 1.5, opacity: 0.4 } },
   { id: "e-social-creative", source: "05-social-intelligence", target: "06-creativity-innovation", style: { stroke: "#ec4899", strokeWidth: 1.5, opacity: 0.4 } },
 ];
