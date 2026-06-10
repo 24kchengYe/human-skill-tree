@@ -24,11 +24,13 @@ const phase0 = centerRow(
   0
 );
 
-// Phase 1: K-12 (5 nodes)
+// Phase 1: K-12 (7 nodes)
 const phase1 = centerRow(
   [
     "01-k12-exam-systems",
     "01-k12-humanities",
+    "01-k12-japanese",
+    "01-k12-korean",
     "01-k12-languages",
     "01-k12-mathematics",
     "01-k12-sciences",
