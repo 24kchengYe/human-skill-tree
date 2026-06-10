@@ -18,9 +18,9 @@ function centerRow(slugs: string[], y: number): Node[] {
   }));
 }
 
-// Phase 0: Foundation (2 nodes)
+// Phase 0: Foundation (3 nodes)
 const phase0 = centerRow(
-  ["00-learning-how-to-learn", "00-tutor-persona"],
+  ["00-early-childhood", "00-learning-how-to-learn", "00-tutor-persona"],
   0
 );
 
@@ -118,6 +118,9 @@ export const initialEdges: Edge[] = [
     animated: true,
     style: { stroke: "#a78bfa", strokeWidth: 1.5, opacity: 0.4 },
   })),
+  // Phase 0 → Phase 1 (early childhood feeds K-12 foundations)
+  { id: "e-early-lang", source: "00-early-childhood", target: "01-k12-languages", animated: true, style: { stroke: "#a78bfa", strokeWidth: 1.5, opacity: 0.4 } },
+  { id: "e-early-math", source: "00-early-childhood", target: "01-k12-mathematics", animated: true, style: { stroke: "#a78bfa", strokeWidth: 1.5, opacity: 0.4 } },
   // Phase 1 → Phase 2 (subject alignment)
   { id: "e-hum-hum", source: "01-k12-humanities", target: "02-humanities-social-tutor", style: { stroke: "#60a5fa", strokeWidth: 1.5, opacity: 0.4 } },
   { id: "e-sci-stem", source: "01-k12-sciences", target: "02-stem-tutor", style: { stroke: "#60a5fa", strokeWidth: 1.5, opacity: 0.4 } },
