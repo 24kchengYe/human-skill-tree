@@ -283,7 +283,7 @@ export function reviewKnowledgePoint(slug: string, kpId: string, remembered: boo
     kp.stage = Math.max(kp.stage - 1, 0);
   }
 
-  const intervalHours = REVIEW_INTERVALS[kp.stage] || REVIEW_INTERVALS[REVIEW_INTERVALS.length - 1];
+  const intervalHours = REVIEW_INTERVALS[kp.stage] ?? REVIEW_INTERVALS[REVIEW_INTERVALS.length - 1];
   kp.nextReviewAt = new Date(now.getTime() + intervalHours * 3600000).toISOString();
 
   progress.mastery = computeMastery(progress);
@@ -351,7 +351,7 @@ export function updateKPsFromQuiz(slug: string, correct: boolean): void {
       kp.stage = Math.max(kp.stage - 1, 0);
     }
     kp.lastReviewedAt = now.toISOString();
-    const intervalHours = REVIEW_INTERVALS[kp.stage] || REVIEW_INTERVALS[REVIEW_INTERVALS.length - 1];
+    const intervalHours = REVIEW_INTERVALS[kp.stage] ?? REVIEW_INTERVALS[REVIEW_INTERVALS.length - 1];
     kp.nextReviewAt = new Date(now.getTime() + intervalHours * 3600000).toISOString();
   }
 
