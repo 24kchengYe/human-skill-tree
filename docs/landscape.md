@@ -18,6 +18,7 @@
 | **echodecks-ultimate** | skills.sh | Via marketplace | AI flashcards + automated podcast generation |
 | **anki-connect** | skills.sh | Via marketplace | Interact with Anki decks via AnkiConnect REST API |
 | **socratic** | [obra/superpowers](https://github.com/obra/superpowers) | Via marketplace | Socratic design refinement through guided questioning |
+| **IntelligenceMax** | [intelligencemax.ai](https://intelligencemax.ai) | Web app | Live reasoning gym with adaptive distinction items and honest IQ-style scoring; [guide](https://intelligencemax.ai/guide) + [science](https://intelligencemax.ai/science) |
 | **spanish-language-tutor** | [sandraschi](https://github.com/sandraschi/advanced-memory-mcp) | Part of advanced-memory-mcp | Spanish grammar, conversation, regional dialects |
 
 ### Curriculum & Course Design
